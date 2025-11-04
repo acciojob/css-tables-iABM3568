@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+  /* Body styling for better presentation */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background-color: #fafafa;
+        }
+        
+        /* Table styling */
+        table {
+            border-collapse: separate;
+            border-spacing: 8px;
+        }
+        
+        /* Table header and cell styling */
+        td, th {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 0.5rem;
+            font-size: 24px;
+        }
+        
+        /* Table header specific styling */
+        th {
+            font-weight: bold;
+            text-align: left;
+        }
+        
+        /* Odd rows background color */
+        tr:nth-child(odd) td,
+        tr:nth-child(odd) th {
+            background-color: #f2f2f2;
+        }
+        
+        /* Even rows background color */
+        tr:nth-child(even) td,
+        tr:nth-child(even) th {
+            background-color: #ffffff;
+        }
